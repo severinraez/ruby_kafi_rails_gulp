@@ -44,7 +44,9 @@ gulp.task('html', ['inject', 'partials'], function () {
     .pipe($.rev())
     .pipe(jsFilter)
     .pipe($.ngAnnotate())
-    .pipe($.uglify({ preserveComments: $.uglifySaveLicense })).on('error', conf.errorHandler('Uglify'))
+    //sraez: disabled mangling because it broke the angular vendor, even though we use ngAnnotate
+    //.pipe($.uglify({ preserveComments: $.uglifySaveLicense})).on('error', conf.errorHandler('Uglify'))
+    .pipe($.uglify({ preserveComments: $.uglifySaveLicense, mangle: false })).on('error', conf.errorHandler('Uglify'))
     .pipe(jsFilter.restore())
     .pipe(cssFilter)
     .pipe($.csso())
