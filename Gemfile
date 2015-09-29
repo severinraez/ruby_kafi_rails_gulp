@@ -50,6 +50,8 @@ gem 'haml-rails'
 gem 'pg'
 gem 'therubyracer', :platform=>:ruby
 
+gem 'foreman'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_20]
