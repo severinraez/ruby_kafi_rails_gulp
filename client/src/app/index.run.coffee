@@ -1,3 +1,4 @@
-angular.module "postInnoweek"
-  .run ($log) ->
-    $log.debug 'runBlock end'
+angular.module "rubyKafiClient"
+  .run ($log, $http) ->
+    $http.get('/api/foos.json').success (result) ->
+      console.log 'Look what the server told us:', result

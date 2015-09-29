@@ -1,4 +1,4 @@
-angular.module "postInnoweek"
+angular.module "rubyKafiClient"
   .directive 'acmeNavbar', ->
 
     NavbarController = (moment) ->

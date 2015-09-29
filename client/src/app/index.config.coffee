@@ -1,4 +1,4 @@
-angular.module "postInnoweek"
+angular.module "rubyKafiClient"
   .config ($logProvider) ->
     # Enable log
     $logProvider.debugEnabled true

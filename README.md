@@ -17,11 +17,23 @@ npm, bower und gulp sind installiert.
 
 ## Setup
 
+Libraries installieren:
+
     bundle install
     cd client
     bower install
     npm install
+  
+(Leere) Datenbank für Rails anlegen:
+   
+    cp config/database.yml{.dist,}
+    #hier evtl database.yml editieren
+    bundle exec rake db:create       
     
 ## Start
 
     bundle exec foreman start
+    
+## client/dist/ bzw public/ für Deployment bauen
+
+    gulp

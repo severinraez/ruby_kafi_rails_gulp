@@ -1,4 +1,4 @@
-angular.module "postInnoweek"
+angular.module "rubyKafiClient"
   .config ($stateProvider, $urlRouterProvider) ->
     $stateProvider
       .state "home",

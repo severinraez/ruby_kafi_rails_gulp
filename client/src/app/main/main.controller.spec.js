@@ -3,7 +3,7 @@
 
   describe('controllers', function(){
 
-    beforeEach(module('postInnoweek'));
+    beforeEach(module('rubyKafiClient'));
 
     /*it('should define more than 5 awesome things', inject(function($controller) {
       var vm = $controller('MainController');

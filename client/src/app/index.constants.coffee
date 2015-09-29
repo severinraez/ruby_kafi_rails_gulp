@@ -1,1 +1,1 @@
-angular.module('postInnoweek')
+angular.module('rubyKafiClient')

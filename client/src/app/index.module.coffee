@@ -1,1 +1,1 @@
-angular.module 'postInnoweek', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'restangular', 'ui.router']
+angular.module 'rubyKafiClient', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'restangular', 'ui.router']
