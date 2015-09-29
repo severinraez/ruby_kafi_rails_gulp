@@ -24,8 +24,9 @@ Libraries installieren:
     bower install
     npm install
   
-(Leere) Datenbank für Rails anlegen:
+Im Projektroot eine (leere) Datenbank für Rails anlegen:
    
+    cd ..
     cp config/database.yml{.dist,}
     #hier evtl database.yml editieren
     bundle exec rake db:create       
@@ -33,6 +34,8 @@ Libraries installieren:
 ## Start
 
     bundle exec foreman start
+    
+(Im Procfile steht, was genau gestartet wird).    
     
 ## client/dist/ bzw public/ für Deployment bauen
 
