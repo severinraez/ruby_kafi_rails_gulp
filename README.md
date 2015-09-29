@@ -37,3 +37,8 @@ Libraries installieren:
 ## client/dist/ bzw public/ für Deployment bauen
 
     gulp
+    
+## Code-Bootstrapping
+Dieses Projekt wurde railsseitig mit dem Composer (https://github.com/RailsApps/rails-composer, Template rails-devise) 
+erstellt, clientseitig mit yeoman, (http://yeoman.io/, Template gulp-angular).
+    
